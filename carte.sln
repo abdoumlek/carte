@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "carte", "carte\carte.csproj", "{25BD7EE0-4E24-4310-833C-1C09CBB4FCF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A1B9E2B9-8C57-498F-B501-8E6ADFB2A069}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{0CF46DEC-F9F3-4A7B-B6FC-8590D3C47632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapStates", "MapStates\MapStates.csproj", "{CC43EC74-5E38-4148-AEF4-844429900E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapStateTest", "MapStateTest\MapStateTest.csproj", "{ACE6E367-38BE-4DED-AD9C-C3AC15E34927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25BD7EE0-4E24-4310-833C-1C09CBB4FCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BD7EE0-4E24-4310-833C-1C09CBB4FCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BD7EE0-4E24-4310-833C-1C09CBB4FCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BD7EE0-4E24-4310-833C-1C09CBB4FCF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC43EC74-5E38-4148-AEF4-844429900E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC43EC74-5E38-4148-AEF4-844429900E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC43EC74-5E38-4148-AEF4-844429900E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC43EC74-5E38-4148-AEF4-844429900E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE6E367-38BE-4DED-AD9C-C3AC15E34927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE6E367-38BE-4DED-AD9C-C3AC15E34927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE6E367-38BE-4DED-AD9C-C3AC15E34927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE6E367-38BE-4DED-AD9C-C3AC15E34927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC43EC74-5E38-4148-AEF4-844429900E40} = {0CF46DEC-F9F3-4A7B-B6FC-8590D3C47632}
+		{ACE6E367-38BE-4DED-AD9C-C3AC15E34927} = {A1B9E2B9-8C57-498F-B501-8E6ADFB2A069}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6859B51-220B-4142-901A-D3A54BE899A8}
+	EndGlobalSection
+EndGlobal
